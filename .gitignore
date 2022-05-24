@@ -1,0 +1,21 @@
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
+
+.idea/
+.iws
+workspace.xml
+tasks.xml
+
+.DS_Store
+
+# I don't want to show my secrets
+/config/secrets.yml
+.env
